@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza</title>
+    <link rel="shortcut icon" href="images/6978255.png" type="image/x-icon">
+</head>
+
+<body>
+    <header style="justify-self: center;">
+        <h1>Pizza online order 🍕</h1>
+        <p><i>hello bro, wanna get some pizza?</i></p>
+        <nav>
+            <a href="#menu">Lihat menu</a>
+            <a href="#order">Pesan sekarang</a>
+            <a href="#menu">Kontak kami</a>
+        </nav>
+    </header>
+    <hr>
+
+    <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
+        <div style="margin-right: 10rem;">
+            <section>
+                <h2>Promo Hari ini</h2>
+                <img src="images/81ec052d5aef07faad5ca851ed34eda0.jpeg" alt="" width="300">
+                <p><mark>50% Diskon</mark> Untuk Semua Pizza Setiap Senin Dan Kamis</p>
+                <ul>
+                    <li>Rotinya empuk</li>
+                    <li>Harga nya terjangkau</li>
+                    <li>kaya akan rempah</li>
+                </ul>
+            </section>
+
+            <section id="contact">
+                <h2>Kontak Kami</h2>
+                <p>📍 Jl. Contoh Alamat No. 123, Kota</p>
+                <p>📞 Telepon: <b>(021) 123-4567</b></p>
+                <p>📧 Email: <a href="mailto:info@pizzaonline.com">info@pizzaonline.com</a></p>
+            </section>
+        </div>
+        <div>
+            <section id="menu">
+                <h2>Menu Pizza</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Nama:</th>
+                            <th>Ukuran:</th>
+                            <th>harga:</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Pepperoni</td>
+                            <td>Kecil</td>
+                            <td>35.000</td>
+                        </tr>
+                        <tr>
+                            <td>Vegetarian</td>
+                            <td>Sedang</td>
+                            <td>50.000</td>
+                        </tr>
+                        <tr>
+                            <td>BBQ Chicken</td>
+                            <td>Besar</td>
+                            <td>70.000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+
+            <section id="order">
+                <h2>Formulir Pemesanan</h2>
+
+                <form action="#" method="post">
+                    <label for="nama">Nama Anda: </label><br>
+                    <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required><br><br>
+                    <label for="email">Email :</label><br>
+                    <input type="email" id="email" name="email" placeholder="contoh@email.com"><br><br>
+                    <label for="ukuran">Ukuran Pizza :</label><br>
+                    <select name="ukuran" id="ukuran">
+                        <option value="kecil">Kecil</option>
+                        <option value="sedang">Sedang</option>
+                        <option value="besar">Besar</option>
+                    </select><br><br>
+                    <label>Pilih Topping :</label><br>
+                    <input type="checkbox" name="topping" value="keju"> Keju
+                    <input type="checkbox" name="topping" value="jamur"> Jamur
+                    <input type="checkbox" name="topping" value="daging"> Daging
+                    <input type="checkbox" name="topping" value="Sayur"> Sayur<br><br>
+                    <label>Pilih Jenis Pizza :</label><br>
+                    <input type="radio" name="jenis" value="Pepperoni"> Pepperoni
+                    <input type="radio" name="jenis" value="Vegetarian"> Vegetarian
+                    <input type="radio" name="jenis" value="BBQ Chicken"> BBQ Chicken<br><br>
+                    </label> <label for="catatan">Catatan Tambahan :</label><br>
+                    <textarea name="catatan" id="catatan" rows="4" cols="30"
+                        placeholder="Contoh: Tanpa sambal. "></textarea><br><br>
+                    <button type="submit">Pesan Sekarang</button>
+                </form>
+            </section>
+        </div>
+    </div>
+    <hr>
+    <footer style="display: flex; justify-self: center;">
+        <p>&copy; 2023 Pizza Online. All rights reserved.
+            <br> <br>
+            Designed by <a href="https://www.linkedin.com/in/umar-putra-sudirman" target="_blank">Umar Putra
+                Sudirman</a>
+        </p>
+    </footer>
+</body>
+
+</html>
